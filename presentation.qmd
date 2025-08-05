@@ -1,7 +1,7 @@
 ---
 title: "Core Skills of a Business Scientist"
 author: "Foundations of Business Analytics"
-institute: "CMCE-10002, Semester 2 2025"
+institute: "CMCE-10002, University of Melbourne"
 format: 
   beamer: 
     aspectratio: 32
@@ -9,34 +9,111 @@ format:
     theme: mousteau
 ---
 
-# In the morning
+## Learning Goals
 
-## Getting up
+By the end of this chapter, you should be able to:
+
+- Identify the eight core skills that underpin effective business analytics.
+- Explain how each skill helps analysts tackle business problems using data.
+- Distinguish between different types of skills (e.g., technical, strategic, communicative) and their roles.
+- Reflect on how your individual strengths align with different analytics skill areas, and how diverse skill sets contribute to effective teams.
+
+# Becoming a Business Scientist
+
+## What is a Business Scientist?
 
 - Turn off alarm
 - Get out of bed
 
-## Breakfast
+## From Mindset to Method
 
 - Eat eggs
 - Drink coffee
 
-# In the evening
+# The 8 Skills of a Business Scientist
 
-## Dinner
+## Institutional Detail: Understanding the Business World
 
 - Eat spaghetti
 - Drink wine
 
-## Going to sleep
+## Data Discovery: Finding the Right Data
+
+- Eat spaghetti
+- Drink wine
+
+## Business Theory: Understand People and Firms
+
+- Eat spaghetti
+- Drink wine
+
+## Analytical Modelling: Choose the Right Tool
+
+- Eat spaghetti
+- Drink wine
+
+## Analytical Theory: Know What Can Go Wrong
+
+- Eat spaghetti
+- Drink wine
+
+## Computational Skills: Work with Code and Technology
+
+- Eat spaghetti
+- Drink wine
+
+## Presentation & Communication: Communicating what you find
+
+- Eat spaghetti
+- Drink wine
+
+## Creativity & Judgment: Asking the Right Questions
+
+- Eat spaghetti
+- Drink wine
+
+## Applying and Combining the Skills
 
 - Get in bed
 - Count sheep
 
-# Before I Sleep
+## Building a Versatile Skill Set
 
-## I write equations
+SSS
+
+# Analytics in the Age of Generative AI
+
+## Why Human Judgment Still Matters
 
 $$
 y = x \beta + \varepsilon
 $$
+
+# Recap
+
+## Wrap Up
+
+shhhh
+
+## Citation
+
+Suggested Citation:
+
+``` markdown
+@misc{fba2025_l02,
+      title={"Foundations of Business Analytics:
+                Core Skills of a Business Scientist"},
+      author={Lachlan Deer, Patrick Ferguson and Junhao Liu},
+      year={2025}
+}
+```
+
+This course adheres to the principles of [\alertb{Open Educational Resources}](https://library.unimelb.edu.au/open-scholarship/what-are-oers). This initiative advocates for transparency and accessibility in teaching to all levels of society and thus creating more accountability and impact.
+
+<p style="text-align:center;">
+
+<img src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" alt="Logo" width="100"/>
+
+</p>
+
+This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
