@@ -1,7 +1,7 @@
 ---
-title: "Presentation"
-author: "Lachlan Deer"
-institute: "Somewhere"
+title: "Core Skills of a Business Scientist"
+author: "Foundations of Business Analytics"
+institute: "CMCE-10002, Semester 2 2025"
 format: 
   beamer: 
     aspectratio: 32
