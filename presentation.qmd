@@ -20,80 +20,255 @@ By the end of this chapter, you should be able to:
 
 # Becoming a Business Scientist
 
-## What is a Business Scientist?
+## More Than Just Tools
 
-- Turn off alarm
-- Get out of bed
+**Expectations**:
 
-## From Mindset to Method
+- How to write code  
+- How to build charts  
+- How to fit models  
 
-- Eat eggs
-- Drink coffee
+**\alert{Versus Reality}**: Using data to **\alertc{tackle messy, ambiguous, and important}** business problems.
+
+This version of reality requires:
+
+- Judgement  
+- Sharp, answerable questions  
+- Knowing which tools to use—and when
+
+
+## The Business Scientist Mindset
+
+:::: columns
+::: {.column width="60%"}
+
+Doing business analytics means **thinking before coding**:
+
+- Understand context  
+- Frame the problem  
+- Choose between different approaches  
+
+\vspace{0.25cm}
+
+So a **business scientist** needs to  **\alertc{blends data, domain knowledge, and structured reasoning}** to guide better decisions.
+
+
+\vspace{0.25cm}
+
+This has **direct implications for** their skill set and their **skill acquisition**
+:::
+
+::: {.column width="40%"}
+
+```{r, echo = FALSE, fig.align = "center", out.width="100%"}
+url <- "https://github.com/unimelb-cmce-10002/fba-book/raw/53949e687a48ac69fdab2a164a82214a6e53ee28/figs/the_business_scientist.png"
+knitr::include_graphics(url)
+```
+
+:::
+::::
+
 
 # The 8 Skills of a Business Scientist
 
 ## Institutional Detail: Understanding the Business World
 
-- Eat spaghetti
-- Drink wine
+Businesses don’t operate in a vacuum. Need to **take time to understand**:
+
+- Customers, competitors, suppliers, regulations, industry norms
+- How the organization works
+
+**\alert{Why it matters}**:
+
+- Avoids misinterpreting the data  
+- Helps frame better questions  
+- Reveals meaningful patterns—and filters out misleading ones  
+
+**Institutional detail** is **\alertb{not a distraction}** — it **\alert{sharpens analysis}**.
 
 ## Data Discovery: Finding the Right Data
 
-- Eat spaghetti
-- Drink wine
+**Real-world data is messy, scattered, and incomplete**. 
+
+- Look across spreadsheets, dashboards, databases, websites—even emails  
+- Combine technical know-how with social intelligence to find what's useful  
+- Ask: What gets measured? What doesn’t—and why?
+
+Sometimes, the data you *want* doesn’t exist. **\alert{Find workarounds}**:
+
+- Use proxies  
+- Collect new data  
+- Reframe the question  
+
 
 ## Business Theory: Understand People and Firms
 
-- Eat spaghetti
-- Drink wine
+We need to understand the **motivations, incentives, and constraints** behind those decisions.
 
-## Analytical Modelling: Choose the Right Tool
+**Business theory**:
 
-- Eat spaghetti
-- Drink wine
+- Gives you **mental models for making sense of patterns**  
+- Helps move from *what* happened → *why* it happened → *what* might happen next  
+- Frames data through concepts from management strategy, consumer psychology, and economics  
+
+Implication: **\alert{Business scientists}**...
+
+- **\alert{Think in trade-offs, incentives}**, and feedback loops  
+- **\alert{Know}** that **\alert{behavior is}** often patterned—and **\alert{interpretable}** 
+
+## Analytical Modelling: Choose the Right Tool  
+
+Business scientists match **tool complexity** to **task complexity**.
+
+Key questions to ask:
+
+- Do we need a causal estimate — or a predictive, or descriptive?
+- How do we balance **accuracy** vs **interpretability**?
+
+The **\alert{best model}** is the one that **\alert{fits the question, the data, and the decision context}**.
+
+And sometimes, **no model is the right choice**:
+
+- A table or chart may tell the story best  
+- Judgment matters: not every question is ready for modelling  
 
 ## Analytical Theory: Know What Can Go Wrong
 
-- Eat spaghetti
-- Drink wine
+**Misleading analysis** leads to **bad decisions**.
+
+Business scientists need to:
+
+- **Think critically** about what the data really shows  
+- Question their own models and conclusions  
+- Understand what their analysis **can—and can’t—say**
+
+This is a version of **statistical thinking**:
+
+- Are we measuring what we think we are?  
+- Could something else explain this pattern?  
+- Would the conclusion change with different data?  
+- What assumptions are we making—and are they reasonable?
+
+Being **\alert{skeptical}** isn’t being negative—it **\alert{makes your work trustworthy}**, not just impressive.
 
 ## Computational Skills: Work with Code and Technology
 
-- Eat spaghetti
-- Drink wine
+Today’s business scientists work with code, tools like R to make our analysis:
+
+- Faster  
+- Clearer  
+- More reproducible  
+
+This isn’t about becoming a software engineer. It’s about **\alert{solving data problems efficiently}**.
+
+Modern business analytics spans:
+
+- Spreadsheets, databases, dashboards, cloud tools, models  
+- Often different and continually newer platforms/models, but
+- Consistent mindset: **Break problems into steps, fix what breaks, and automate the rest.**
 
 ## Presentation & Communication: Communicating what you find
 
-- Eat spaghetti
-- Drink wine
+Business scientists shape findings into clear, purposeful stories:
+
+- **\alert{Tailor to your audience}**: executives want clarity, analysts want detail  
+- Use graphs, slides, and writing to highlight what matters  
+- **\alert{Focus}** on what the data or model shows ... and **\alert{what to do about it}**  
+
+Good communication means:
+
+- Clean visuals  
+- Clear structure  
+- Sharp recommendations  
+
+The goal isn’t to impress — it’s to **\alert{help decision makers think clearly and act}**.
+
 
 ## Creativity & Judgment: Asking the Right Questions
 
-- Eat spaghetti
-- Drink wine
+Business scientists:
+
+- Turn vague goals into **\alert{clear, testable questions}**  
+- Use **\alert{creativity}** to reframe problems  
+- Use **\alert{judgment}** to focus on what matters  
+
+You won’t always get a clean brief:
+
+- Sometimes the question is too broad  
+- Sometimes the data leads somewhere unexpected  
+
+The best analysts **\alert{act like investigators}** — curious, focused, and grounded in business relevance.
 
 ## Applying and Combining the Skills
 
-- Get in bed
-- Count sheep
+Not every business scientist uses every skill equally.
+
+Some skills are **\alert{universal}**:
+
+- Understanding the business world  
+- Finding the right data  
+- Communicating what you find  
+- Asking the right questions  
+
+Other skills are **context-dependent**:
+
+- Understanding people and firms  
+- Choosing the right tool  
+- Knowing what can go wrong  
+- Working with code and technology  
+
+The goal isn’t to master everything—it’s to know what matters most for the problems you’re solving.
 
 ## Building a Versatile Skill Set
 
-SSS
+You can't master all eight skills at once. But you can **build them over time**.
+
+Grow through:
+
+- **Projects** — real problems build real skill  
+- **Courses** — pick what fits your goals  
+- **Collaboration** — learn from others  
+- **Reflection** — ask what worked, what didn’t  
+
+**\alert{Stay curious. Stay self-aware. Keep learning}**.
+
 
 # Analytics in the Age of Generative AI
 
 ## Why Human Judgment Still Matters
 
-$$
-y = x \beta + \varepsilon
-$$
+AI can (usually) write code, generate charts, and surface patterns. But it can’t:
+
+- Understand business context  
+- Judge what matters  
+- Navigate politics or ambiguity  
+- Communicate with nuance  
+
+
+Implication: AI can help spot patterns—but **only people know what they mean, why they matter, and what to do next**.
+
+Use AI as a **tool**, not a replacement
+ 
+* Good analysts use AI to work faster—**not to think less**.
 
 # Recap
 
 ## Wrap Up
 
-shhhh
+\textbf{\alert{Today we discussed that}}:
+
+- Business analytics is more than tools—it's a mindset grounded in context, curiosity, and judgment.  
+- Great business scientists combine 8 core skills with role-specific strengths to solve real problems.  
+- In an AI-powered world, human insight matters more than ever—use AI to accelerate thinking, not replace it.
+
+
+\textbf{\alertc{Next week's tutorial}}:
+
+-   **Prepare answers** to Tutorial 2 **BEFORE** coming to class.
+
+\textbf{\alertc{Next week's lecture}}:
+
+-  **How** do we effectively **visualize data** using R?
 
 ## Citation
 
@@ -116,4 +291,4 @@ This course adheres to the principles of [\alertb{Open Educational Resources}](h
 
 </p>
 
-This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+This work is licensed under a [\alertb{Creative Commons Attribution-ShareAlike 4.0 International License}](http://creativecommons.org/licenses/by-sa/4.0/).
